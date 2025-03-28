@@ -92,4 +92,16 @@ Karena kita ingin menjalankan concurrency dengan aman, menurut saya menggunakan 
 
 #### Reflection Publisher-2
 
+1. In the Model-View Controller (MVC) compound pattern, there is no “Service” and “Repository”. Model in MVC covers both data storage and business logic. Explain based on your understanding of design principles, why we need to separate “Service” and “Repository” from a Model?
+
+Dalam MVC, Model seringkali menangani data dan logika bisnis sekaligus. Namun, dengan memisahkan Service dan Repository, kita bisa mengisolasi logika bisnis dan akses data secara terpisah. Hal ini membuat kode lebih modular, mudah di-maintain, dan lebih mudah diuji karena masing-masing komponen memiliki tanggung jawab yang jelas.
+
+2. What happens if we only use the Model? Explain your imagination on how the interactions between each model (Program, Subscriber, Notification) affect the code complexity for each model?
+
+Kalau kita hanya menggunakan Model, maka Model tersebut harus menangani segala hal mulai dari interaksi dengan database hingga logika bisnis. Misalnya, model Program, Subscriber, dan Notification akan saling bergantung dan berinteraksi secara langsung, yang dapat menyebabkan kode menjadi rumit dan susah di-maintain. Pisah-pisah tugas ini membantu mengurangi kompleksitas dan memudahkan perbaikan atau penambahan fitur baru.
+
+3. Have you explored more about Postman? Tell us how this tool helps you to test your current work. You might want to also list which features in Postman you are interested in or feel like it is helpful to help your Group Project or any of your future software engineering projects.
+
+Saya sudah mencoba Postman dan menurut saya alat ini sangat membantu dalam pengujian API. Postman memudahkan saya untuk mengirim request dengan berbagai metode (GET, POST, dll), melihat response secara real time, serta melakukan automatisasi pengujian dengan collection dan environment. Fitur-fitur tersebut sangat berguna untuk proyek kelompok atau pengembangan perangkat lunak di masa depan.
+
 #### Reflection Publisher-3
