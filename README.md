@@ -105,3 +105,4 @@ Kalau kita hanya menggunakan Model, maka Model tersebut harus menangani segala h
 Saya sudah mencoba Postman dan menurut saya alat ini sangat membantu dalam pengujian API. Postman memudahkan saya untuk mengirim request dengan berbagai metode (GET, POST, dll), melihat response secara real time, serta melakukan automatisasi pengujian dengan collection dan environment. Fitur-fitur tersebut sangat berguna untuk proyek kelompok atau pengembangan perangkat lunak di masa depan.
 
 #### Reflection Publisher-3
+
